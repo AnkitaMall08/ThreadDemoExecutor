@@ -1,11 +1,10 @@
-import java.beans.Customizer;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
+        
         customer c1=new customer("ank","java");
         customer c2=new customer("kes","java");
         customer c3=new customer("osh","java");
