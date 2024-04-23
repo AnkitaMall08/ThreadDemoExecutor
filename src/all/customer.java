@@ -1,3 +1,5 @@
+package all;
+
 public class customer {
     String name;
     String role;

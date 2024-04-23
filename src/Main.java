@@ -1,6 +1,11 @@
+
+import all.TriggerEmail;
+import all.customer;
+
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +21,7 @@ public class Main {
         customer c9=new customer("peace","java");
         customer c10=new customer("khushi","java");
         customer c11=new customer("success","java");
+        customer c12=new customer("success","java");
 
         ArrayList<customer> listOfCust= new ArrayList<>();
         listOfCust.add(c1);
@@ -29,7 +35,7 @@ public class Main {
         listOfCust.add(c9);
         listOfCust.add(c10);
         listOfCust.add(c11);
-        
+
 
         ExecutorService executorService = Executors.newFixedThreadPool(3);
 

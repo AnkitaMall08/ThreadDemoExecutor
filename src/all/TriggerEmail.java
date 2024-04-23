@@ -1,3 +1,5 @@
+package all;
+
 public class TriggerEmail implements Runnable {
     private customer c;
 
@@ -10,7 +12,7 @@ public class TriggerEmail implements Runnable {
         trriggerdEmail(c);
     }
     public void trriggerdEmail(customer c){
-        System.out.println("hi customer");
+        System.out.println("hi all.customer");
         StringBuilder sb=new StringBuilder();
         sb.append(c.name);
         sb.append("please have some patience as you are incredible");
